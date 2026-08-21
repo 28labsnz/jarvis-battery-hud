@@ -30,7 +30,7 @@
  */
 
 const LIT_VERSION = "2.8.0";
-const CARD_VERSION = "1.0.1";
+const CARD_VERSION = "1.0.2";
 
 // ---------------------------------------------------------------------------
 // Lit core (loaded via dynamic import, matches HA frontend pattern)
@@ -444,10 +444,11 @@ class JarvisBatteryHud extends LitElement {
       `);
     }
 
-    // decorative dashed arc on mid ring (75% sweep, top)
+    // decorative dashed arc on mid ring — 90° sweep centered on top
+    // (kept clear of all three corner panels)
     const arcR = rMid;
-    const startAngle = -Math.PI * 0.875; // 270deg + 22.5
-    const endAngle = -Math.PI * 0.125;
+    const startAngle = -Math.PI * 0.75;  // -135° = upper-left
+    const endAngle   = -Math.PI * 0.25;  //  -45° = upper-right
     const a1 = startAngle;
     const a2 = endAngle;
     const x1 = 160 + Math.cos(a1) * arcR;
