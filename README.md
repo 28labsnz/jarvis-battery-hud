@@ -73,6 +73,24 @@ template:
 
 The ring fill, the SoC percentage, the corner panel values, and the corner brackets all shift color together.
 
+
+
+## Design
+
+The card was designed to match the [Jarvis Interface](https://github.com/28labsnz/ratchet) aesthetic. Design inspiration vs. live render:
+
+| Design mockup | Live render |
+|:---:|:---:|
+| ![Design reference](mockup-design-reference.jpg) | ![Live card](preview.png) |
+
+### Color buckets
+
+| SoC | Color | Hex |
+|-----|-------|-----|
+| > 50% | Cyan | `#00D9FF` |
+| 20–50% | Amber | `#FFB347` |
+| < 20% | Red | `#FF4D6D` |
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
