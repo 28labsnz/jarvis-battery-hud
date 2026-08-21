@@ -1,0 +1,13 @@
+{
+  "name": "Jarvis Battery HUD",
+  "version": "1.0.1",
+  "description": "HUD-style battery State of Charge Lovelace card with three corner stat tiles, themed for the Jarvis Interface (cyan / Orbitron / Rajdhani / glassmorphic).",
+  "url": "https://github.com/28labsnz/jarvis-battery-hud",
+  "render_layer": "module",
+  "country": ["NZ"],
+  "filename": "jarvis-battery-hud.js",
+  "documentation": "https://github.com/28labsnz/jarvis-battery-hud/blob/main/README.md",
+  "issue_tracker": "https://github.com/28labsnz/jarvis-battery-hud/issues",
+  "codeowners": ["@28labsnz"],
+  "requirements": []
+}
