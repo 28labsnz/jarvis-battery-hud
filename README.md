@@ -77,7 +77,7 @@ The ring fill, the SoC percentage, the corner panel values, and the corner brack
 
 ## Design
 
-The card was designed to match the [Jarvis Interface](https://github.com/28labsnz/ratchet) aesthetic. Design inspiration vs. live render:
+The card was designed to match the Jarvis Interface aesthetic. Design inspiration vs. live render:
 
 | Design mockup | Live render |
 |:---:|:---:|
