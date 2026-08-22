@@ -1,6 +1,6 @@
 # Jarvis Battery HUD
 
-A Home Assistant Lovelace card that renders a **futuristic HUD-style battery State of Charge gauge** with three corner stat tiles — designed to match the [Jarvis Interface](https://github.com/28labsnz/ratchet) aesthetic (cyan `#00D9FF`, Orbitron, Rajdhani, glassmorphic, dark).
+A Home Assistant Lovelace card that renders a **futuristic HUD-style battery State of Charge gauge** with three corner stat tiles — designed to match the Jarvis Interface aesthetic (cyan `#00D9FF`, Orbitron, Rajdhani, glassmorphic, dark).
 
 ![Jarvis Battery HUD preview](https://raw.githubusercontent.com/28labsnz/jarvis-battery-hud/main/preview.png)
 
